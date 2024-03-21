@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Your global stylesheet or CSS-in-JS */
+
+.full-width-card {
+    background-color: #3182CE; /* Adjust background color as needed */
+    color: white; /* Adjust text color as needed */
+    grid-column: span 3; /* Adjust grid column span as needed */
+    margin-bottom: 1rem; /* Adjust margin as needed */
+  }
+  
+  .normal-width-card {
+    background-color: white; /* Adjust background color as needed */
+    color: black; /* Adjust text color as needed */
+    grid-column: span 1; /* Adjust grid column span as needed */
+    margin-bottom: 1rem; /* Adjust margin as needed */
+  }
+  
